@@ -33,4 +33,4 @@ Contributions, insights, or suggestions are warmly welcomed. Please feel free to
 
 ## Acknowledgement
 
-Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments.
+Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments, and thanks Cody (chenshuhao.qin@duke.edu) for his advice.
