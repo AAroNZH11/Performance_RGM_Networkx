@@ -29,4 +29,4 @@ This finding is shared with the community in the hope of enhancing our understan
 
 ## Acknowledgement
 
-Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments
+Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments.
