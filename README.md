@@ -1,4 +1,4 @@
-# Graph Generation Time Analysis with Networkx
+# Graph Generation Time Analysis
 
 This repository contains an analysis of the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
 
