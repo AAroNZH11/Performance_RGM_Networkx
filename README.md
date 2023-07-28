@@ -26,3 +26,7 @@ The analysis was performed on a MacBook Air M1 2021 using Python and the Network
 ## Sharing
 
 This finding is shared with the community in the hope of enhancing our understanding of the performance characteristics of the Networkx package. Contributions, insights or suggestions are welcomed. Please feel free to create an issue or a pull request.
+
+## Acknowledgement
+
+Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments
