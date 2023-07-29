@@ -30,9 +30,7 @@ The analysis was performed on a MacBook Air M1 2021 (8-core CPU and 8GB Memory) 
 
 This finding is shared with the community in the hope of enhancing our understanding of the performance characteristics of the Networkx package. An intriguing observation made during the project was the surprising increase in execution time when generating a graph using the Random Geometric Graph model. Specifically, the execution time increases markedly when the graph reaches around 8000 nodes and the radius is set at 0.8.
 
-Understanding the cause of this performance drop is part of the motivation behind sharing this research. If you have insights, theories, or even a solution for this issue, it could greatly enhance the efficiency and usability of Networkx for complex, large-scale graph generation and analysis.
-
-Contributions, insights, or suggestions are warmly welcomed. Please feel free to create an issue or a pull request if you have any thoughts on this topic or other aspects of the project.
+If you have insights, theories, or even a solution for this issue, it could greatly enhance the efficiency and usability of Networkx for complex, large-scale graph generation and analysis. Please feel free to create an issue or a pull request if you have any thoughts on this topic or other aspects of the project.
 
 ## Acknowledgement
 
