@@ -40,3 +40,14 @@ Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for thei
 
 ## Citations
 
+[Erdős, P., & Rényi, A. (1959). On random graphs. I. Publicationes Mathematicae, 6, 290-297.](https://www.renyi.hu/~p_erdos/1959-11.pdf)
+
+[Erdős, P., & Rényi, A. (1960). On the evolution of random graphs. Publicationes of the Mathematical Institute of the Hungarian Academy of Sciences, 5, 17-61.](https://www.renyi.hu/~p_erdos/1960-10.pdf)
+
+Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of ‘small-world’ networks. Nature, 393(6684), 440-442.
+
+Barabási, A. L., & Albert, R. (1999). Emergence of scaling in random networks. Science, 286(5439), 509-512.
+
+Barabási, A. L., & Albert, R. (2011). Scale-Free Networks: A Decade and Beyond. Science, 325(5939), 412-413.
+
+Penrose, M. D. (2003). Random geometric graphs. Oxford University Press.
