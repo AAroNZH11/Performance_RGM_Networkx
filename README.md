@@ -1,4 +1,4 @@
-# Observations on execution time of generaing graphs by 4 Models using Python package Networkx
+# Time Performance of generaing graphs by 4 Models using Python package Networkx
 
 This repository contains collecting and observing the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
 
