@@ -52,7 +52,7 @@ Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for thei
 
 [Penrose, M. D. (2003). Random geometric graphs. Oxford University Press.](https://academic.oup.com/book/9064)
 
-[Exploring network structure, dynamics, and function using NetworkX]([https://networkx.org/](https://conference.scipy.org/proceedings/SciPy2008/paper_2/))
+[Exploring network structure, dynamics, and function using NetworkX](https://conference.scipy.org/proceedings/SciPy2008/paper_2/)
 
 [ J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, 2007.](https://ieeexplore.ieee.org/document/4160265)
 
