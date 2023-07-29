@@ -2,10 +2,10 @@
 
 This repository contains collecting and observing the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
 
-1. Erdős-Rényi (ER) ([Paper1](https://www.renyi.hu/~p_erdos/1959-11.pdf), [Paper2](https://www.renyi.hu/~p_erdos/1960-10.pdf))
-2. Watts-Strogatz (WS) ([Paper](https://www.nature.com/articles/30918))
-3. Barabási-Albert (BA) ([Paper1](https://www.science.org/doi/10.1126/science.286.5439.509), [Paper2](https://www.science.org/doi/10.1126/science.1173299))
-4. Random Geometric Graph (RGG) ([Book](https://academic.oup.com/book/9064))
+1. Erdős-Rényi (ER) (["On Random Graphs. I"](https://www.renyi.hu/~p_erdos/1959-11.pdf), ["On the evolution of random graphs"](https://www.renyi.hu/~p_erdos/1960-10.pdf))
+2. Watts-Strogatz (WS) (["Collective dynamics of ‘small-world’ networks"](https://www.nature.com/articles/30918))
+3. Barabási-Albert (BA) (["Emergence of Scaling in Random Networks"](https://www.science.org/doi/10.1126/science.286.5439.509), ["Scale-Free Networks: A Decade and Beyond"](https://www.science.org/doi/10.1126/science.1173299))
+4. Random Geometric Graph (RGG) (["Random Geometric Graphs"](https://academic.oup.com/book/9064))
 
 ## Methodology
 
