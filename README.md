@@ -22,6 +22,10 @@ Results of the execution times for each models are shown below in 3D plots
 
 It is observed that the time taken to generate a graph using the Random Geometric Graph model can be abnormally long under certain conditions. Specifically, when the number of nodes is large (up to 8000 nodes) and the radius is relatively high (up to 0.8).
 
+## Update 
+Tests are made on another device (windows operating system), with Intel i7-10875H CPU and 16GB Memory, execution time of Random Geometric Graph became normal. The reason for obtaining different results in two different configurations could be attributed to differences in memory availability.
+![windows_RGG](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/7c5cefc4-0c31-4b6a-bfda-f1c5088b0afe)
+
 ## Environment
 
 The analysis was performed on a MacBook Air M1 2021 (8-core CPU and 8GB Memory) using Python package Networkx.
