@@ -2,10 +2,10 @@
 
 This repository contains collecting and observing the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
 
-1. Erdős-Rényi (ER) (["On Random Graphs. I"](https://www.renyi.hu/~p_erdos/1959-11.pdf), ["On the evolution of random graphs"](https://www.renyi.hu/~p_erdos/1960-10.pdf))
-2. Watts-Strogatz (WS) (["Collective dynamics of ‘small-world’ networks"](https://www.nature.com/articles/30918))
-3. Barabási-Albert (BA) (["Emergence of Scaling in Random Networks"](https://www.science.org/doi/10.1126/science.286.5439.509), ["Scale-Free Networks: A Decade and Beyond"](https://www.science.org/doi/10.1126/science.1173299))
-4. Random Geometric Graph (RGG) (["Random Geometric Graphs"](https://academic.oup.com/book/9064))
+1. Erdős-Rényi (ER) [[1]](#1), [[2]](#2) 
+2. Watts-Strogatz (WS) [[3]](#3)
+3. Barabási-Albert (BA) [[4]](#4), [[5]](#5)
+4. Random Geometric Graph (RGG) [[6]](#6)
 
 ## Methodology
 
@@ -40,23 +40,32 @@ If you have insights, theories, or even a solution for this issue, it could grea
 
 Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments, and thanks Chenshuhao Qin for his advice.
 
-## Citations
+## References
 
+<a id="1">[1]</a>
 [Erdős, P., & Rényi, A. (1959). On random graphs. I. Publicationes Mathematicae, 6, 290-297.](https://www.renyi.hu/~p_erdos/1959-11.pdf)
 
+<a id="2">[2]</a>
 [Erdős, P., & Rényi, A. (1960). On the evolution of random graphs. Publicationes of the Mathematical Institute of the Hungarian Academy of Sciences, 5, 17-61.](https://www.renyi.hu/~p_erdos/1960-10.pdf)
 
+<a id="3">[3]</a>
 [Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of ‘small-world’ networks. Nature, 393(6684), 440-442.](https://www.nature.com/articles/30918)
 
+<a id="4">[4]</a>
 [Barabási, A. L., & Albert, R. (1999). Emergence of scaling in random networks. Science, 286(5439), 509-512.](https://www.science.org/doi/10.1126/science.286.5439.509)
 
+<a id="5">[5]</a>
 [Barabási, A. L., & Albert, R. (2011). Scale-Free Networks: A Decade and Beyond. Science, 325(5939), 412-413.](https://www.science.org/doi/10.1126/science.1173299)
 
+<a id="6">[6]</a>
 [Penrose, M. D. (2003). Random geometric graphs. Oxford University Press.](https://academic.oup.com/book/9064)
 
+<a id="7">[7]</a>
 [Exploring network structure, dynamics, and function using NetworkX](https://conference.scipy.org/proceedings/SciPy2008/paper_2/)
 
+<a id="8">[8]</a>
 [ J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, 2007.](https://ieeexplore.ieee.org/document/4160265)
 
+<a id="9">[9]</a>
 [Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 10.1038/s41586-020-2649-2](https://www.nature.com/articles/s41586-020-2649-2)
 
