@@ -1,6 +1,9 @@
-# Time Performance of generaing graphs by 4 Models using Python package Networkx
+# Time Performance of Generaing Four Types of Random Graphs Using Networkx
 
-This repository contains collecting and observing the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
+This repository contains the material for evaluting and reporting the
+time performance of generating four  important types of random graphs
+using the Python package [Networkx](https://networkx.org/). The four 
+models are:
 
 1. Erdős-Rényi (ER) [[1]](#1), [[2]](#2) 
 2. Watts-Strogatz (WS) [[3]](#3)
@@ -9,10 +12,28 @@ This repository contains collecting and observing the execution time required fo
 
 ## Methodology
 
-In the process of generating graphs, the execution time is meticulously tracked for diverse numbers of nodes, ranging from 1000 to 8000, and various parameters unique to each model. To ensure accurate assessments, every configuration undergoes 6 runs, with the initial cold run results discarded. Both the average time of the last five runs and the best run (minimum time) are recorded for analysis and comparison.
+The time performance for generating each type of random graphs is
+measured by the execution time, both at the average and the best,
+under a specific setting of the model parameters. We conduct 6 runs
+for each parameter setting, discarding the initial (cold) run, and
+recording the best/minimal execution time from the subsequent 5
+runs. The average of the 5 runs is then calculated.
+
+
+The parameter common to all four models is the number of
+vertices/nodes, denodted as N. We vary N  from 1000 to 8000 with
+step size 1000.  We let the other key parameter(s) for each model vary
+as well, and use the default values for the remaining parameters.
+
+The experiments are carried out on Macbook Air M1 with 8GB memory. 
 
 ## Result
-Results of the execution times for each models are shown below in 3D plots
+
+The execution times for each model are shown below in 2 (3D) plots: one
+for the average time (to the left) and the other for the minimal time
+(to the right). The execution time measured in seconds is along the z-axis,
+it varies with the change in model parameter values along the x-axis and y-axis.
+
 ![ER](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/d5d0c34b-5df6-416b-beff-a27fd8472e01)
 ![WS](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/573d9dba-5fbb-4a91-8d2f-cc01b8383d78)
 ![BA](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/9dd54182-1f49-4d61-8e2a-c19defb1feff)
@@ -20,25 +41,47 @@ Results of the execution times for each models are shown below in 3D plots
 
 ## Key Findings
 
-It is observed that the time taken to generate a graph using the Random Geometric Graph model can be abnormally long under certain conditions. Specifically, when the number of nodes is large (up to 8000 nodes) and the radius is relatively high (up to 0.8).
+It is observed that the execution time changes almost linearly with
+$N$, the number of nodes at a fixed average degree, and changes
+non-linearly and smoothly with the average degree as expected, except
+for the sudden and sharp increase at the dense graph of N=8000 nodes
+with the random geometric graph model.
+
 
 ## Update 
-Since the result of RGG stands out, tests are made on another device (windows operating system), with Intel i7-10875H CPU and 16GB Memory, execution time of Random Geometric Graph became normal. The reason for obtaining different results in two different configurations could be attributed to differences in memory availability.
+
+To understand the sudden and sharp increase in generation time for the
+large and dense graph with the RGG model, we conducted additional
+experiments on another device (windows operating system), with Intel
+i7-10875H CPU and 16GB Memory.  Notably, the singular behavior does
+not appear on the second device. We conclude that the singular
+behavior on the first machine is primarily due to caching operations
+within limited memory space.
+
 ![windows_RGG](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/7c5cefc4-0c31-4b6a-bfda-f1c5088b0afe)
 
 ## Environment
 
-The analysis was performed on a MacBook Air M1 2021 (8-core CPU and 8GB Memory) using Python package Networkx.
+The experiments were performed on a MacBook Air M1 2021 (8-core CPU
+and 8GB Memory) using the Python package Networkx.
 
 ## Sharing
 
-This finding is shared with the community in the hope of enhancing our understanding of the performance characteristics of the Networkx package. An intriguing observation made during the project was the surprising increase in execution time when generating a graph using the Random Geometric Graph model. Specifically, the execution time increases markedly when the graph reaches around 8000 nodes and the radius is set at 0.8.
+The empirical finding is shared with the community in the hope of
+enhancing our understanding of the performance characteristics of the
+Networkx package. An intriguing observation made during the project
+was the surprising increase in execution time when generating a dense
+graph by the Random Geometric Graph (RGG) model. By the additional
+experiments on a machine with larger memory capacity, this
+singular behavior is attributed to the caching in limited memory space.
 
-If you have insights, theories, or even a solution for this issue, it could greatly enhance the efficiency and usability of Networkx for complex, large-scale graph generation and analysis. Please feel free to create an issue or a pull request if you have any thoughts on this topic or other aspects of the project.
+
 
 ## Acknowledgement
 
-Thanks for Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun for their valuable comments, and thanks Chenshuhao Qin for his advice.
+Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun offered
+valuable suggestions. My teammate Cody (Chenshuhao) Qin gave me his
+advice during the experiments. 
 
 ## References
 
