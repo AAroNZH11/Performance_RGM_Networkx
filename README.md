@@ -13,7 +13,10 @@ In the process of generating graphs, the execution time is meticulously tracked 
 
 ## Result
 Results of the execution times for each models are shown below in 3D plots
-![ER](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/f37a6009-1d69-45ec-96c9-b5f1761c6fff)
+![ER](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/d5d0c34b-5df6-416b-beff-a27fd8472e01)
+![WS](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/573d9dba-5fbb-4a91-8d2f-cc01b8383d78)
+![BA](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/9dd54182-1f49-4d61-8e2a-c19defb1feff)
+![RGG](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/e5a196c5-b7b2-4b5d-bfc3-e8d4bd75cd1c)
 
 ## Key Findings
 
