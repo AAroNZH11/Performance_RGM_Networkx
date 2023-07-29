@@ -20,7 +20,7 @@ Results of the execution times for each models are shown below in 3D plots
 
 ## Key Findings
 
-It is observed that the time taken to generate a graph using the Random Geometric Graph model can be abnormally long under certain conditions. Specifically, when the number of nodes is large (up to 8000 nodes) and the radius is relatively high (0.8), the execution time is more than five times the estimated time.
+It is observed that the time taken to generate a graph using the Random Geometric Graph model can be abnormally long under certain conditions. Specifically, when the number of nodes is large (up to 8000 nodes) and the radius is relatively high (up to 0.8).
 
 ## Environment
 
