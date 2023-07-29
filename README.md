@@ -2,10 +2,10 @@
 
 This repository contains collecting and observing the execution time required for generating graphs using various models in the [Networkx](https://networkx.org/) Python package. The models evaluated include:
 
-1. Erdős-Rényi (ER)
-2. Watts-Strogatz (WS)
-3. Barabási-Albert (BA)
-4. Random Geometric Graph (RGG)
+1. Erdős-Rényi (ER) ([Paper1](https://www.renyi.hu/~p_erdos/1959-11.pdf), [Paper2](https://www.renyi.hu/~p_erdos/1960-10.pdf))
+2. Watts-Strogatz (WS) ([Paper1](link_to_paper1), [Paper2](link_to_paper2))
+3. Barabási-Albert (BA) ([Paper1](link_to_paper1), [Paper2](link_to_paper2))
+4. Random Geometric Graph (RGG) ([Paper1](link_to_paper1), [Paper2](link_to_paper2))
 
 ## Methodology
 
