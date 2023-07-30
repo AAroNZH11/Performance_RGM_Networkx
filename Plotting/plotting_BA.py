@@ -31,7 +31,7 @@ x, y, z = [i + 0.5 for i in _x], [i + 0.5 for i in _y], _z
 dx = dy = 0.6  # Smaller bars
 dz = execution_times_avg.flatten()  # Heights of the bars
 
-ax1.bar3d(x, y, z, dx, dy, dz, color=(0.6, 0.8, 1.0), shade=True)
+ax1.bar3d(x, y, z, dx, dy, dz, color=(1.0, 0.75, 0.8), shade=True)
 
 # Set labels and title for the average times plot
 ax1.set_xlabel('Number of nodes')
@@ -52,7 +52,7 @@ ax2 = fig.add_subplot(122, projection='3d')
 _z = np.zeros_like(execution_times_best.flatten())
 dz = execution_times_best.flatten()  # Heights of the bars
 
-ax2.bar3d(x, y, z, dx, dy, dz, color=(0.6, 0.8, 1.0), shade=True)
+ax2.bar3d(x, y, z, dx, dy, dz, color=(1.0, 0.75, 0.8), shade=True)
 
 # Set labels and title for the best times plot
 ax2.set_xlabel('Number of nodes')
