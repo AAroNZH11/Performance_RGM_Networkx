@@ -58,7 +58,7 @@ not appear on the second device. We conclude that the singular
 behavior on the first machine is primarily due to caching operations
 within limited memory space.
 
-![windows_RGG](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/7c5cefc4-0c31-4b6a-bfda-f1c5088b0afe)
+![Windows_RGG](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/abe5dbb6-f0b6-476e-8b74-04e952b1e24e)
 
 ## Environment
 
