@@ -35,9 +35,9 @@ for the average time (to the left) and the other for the minimal time
 it varies with the change in model parameter values along the x-axis and y-axis.
 
 ![ER](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/d5d0c34b-5df6-416b-beff-a27fd8472e01)
-![WS](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/573d9dba-5fbb-4a91-8d2f-cc01b8383d78)
-![BA](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/9dd54182-1f49-4d61-8e2a-c19defb1feff)
-![RGG](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/e5a196c5-b7b2-4b5d-bfc3-e8d4bd75cd1c)
+![WS](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/0281b1ae-e06b-43dd-83d4-adb6dcf76db4)
+![BA](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/34d3972e-2574-4f6a-9041-b49a68700fbc)
+![RGG](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/1c8b1d69-f343-48c4-931b-2e202fd96dd7)
 
 ## Key Findings
 
