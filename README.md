@@ -1,7 +1,7 @@
-# Time Performance of Generaing Four Types of Random Graphs Using Networkx
+# Time Performance of Generating Four Types of Random Graphs Using `Networkx`
 
-This repository contains the material for evaluting and reporting the
-time performance of generating four  important types of random graphs
+This repository contains the material for evaluating and reporting the
+time performance of generating four important types of random graphs
 using the Python package [Networkx](https://networkx.org/). The four 
 models are:
 
@@ -21,18 +21,18 @@ runs. The average of the 5 runs is then calculated.
 
 
 The parameter common to all four models is the number of
-vertices/nodes, denodted as N. We vary N  from 1000 to 8000 with
+vertices/nodes, denoted as $N$. We vary $N$ from 1000 to 8000 with
 step size 1000.  We let the other key parameter(s) for each model vary
-as well, and use the default values for the remaining parameters.
+as well and use the default values for the remaining parameters.
 
-The experiments are carried out on Macbook Air M1 with 8GB memory. 
+The experiments are carried out on a Macbook Air M1 with 8GB memory. 
 
 ## Result
 
 The execution times for each model are shown below in 2 (3D) plots: one
 for the average time (to the left) and the other for the minimal time
-(to the right). The execution time measured in seconds is along the z-axis,
-it varies with the change in model parameter values along the x-axis and y-axis.
+(to the right). The execution time measured in seconds is along the z-axis and
+varies with the change in model parameter values along the x-axis and y-axis.
 
 ![ER](https://github.com/AAroNZH11/Observation_Networkx_RGG/assets/124021215/d5d0c34b-5df6-416b-beff-a27fd8472e01)
 ![WS](https://github.com/AAroNZH11/Performance_RGM_Networkx/assets/124021215/0281b1ae-e06b-43dd-83d4-adb6dcf76db4)
@@ -63,23 +63,23 @@ within limited memory space.
 ## Environment
 
 The experiments were performed on a MacBook Air M1 2021 (8-core CPU
-and 8GB Memory) using the Python package Networkx.
+and 8GB Memory) using the Python package `Networkx`.
 
 ## Sharing
 
 The empirical finding is shared with the community in the hope of
 enhancing our understanding of the performance characteristics of the
-Networkx package. An intriguing observation made during the project
+`Networkx` package. An intriguing observation made during the project
 was the surprising increase in execution time when generating a dense
 graph by the Random Geometric Graph (RGG) model. By the additional
-experiments on a machine with larger memory capacity, this
+experiments on a machine with a larger memory capacity, this
 singular behavior is attributed to the caching in limited memory space.
 
 
 
-## Acknowledgement
+## Acknowledgment
 
-Dr. Nikos Pitsianis, Dr. Dimitris Floros and Dr. Xiaobai Sun offered
+Dr. Nikos Pitsianis, Dr. Dimitris Floros, and Dr. Xiaobai Sun offered
 valuable suggestions. My teammate Cody (Chenshuhao) Qin gave me his
 advice during the experiments. 
 
@@ -89,7 +89,7 @@ advice during the experiments.
 [Erdős, P., & Rényi, A. (1959). On random graphs. I. Publicationes Mathematicae, 6, 290-297.](https://www.renyi.hu/~p_erdos/1959-11.pdf)
 
 <a id="2">[2]</a>
-[Erdős, P., & Rényi, A. (1960). On the evolution of random graphs. Publicationes of the Mathematical Institute of the Hungarian Academy of Sciences, 5, 17-61.](https://www.renyi.hu/~p_erdos/1960-10.pdf)
+[Erdős, P., & Rényi, A. (1960). On the evolution of random graphs. Publications of the Mathematical Institute of the Hungarian Academy of Sciences, 5, 17-61.](https://www.renyi.hu/~p_erdos/1960-10.pdf)
 
 <a id="3">[3]</a>
 [Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of ‘small-world’ networks. Nature, 393(6684), 440-442.](https://www.nature.com/articles/30918)
